@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+#photo-profile {
+    background-color: rgba(37, 48, 56, 0.46);
+    border-radius: 10px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    left: 30px;
+    top: 20px;
+    border: 2px solid rgb(130, 130, 130);
+    
+    
+}
+
+#photo-profile h2, p, a {
+    position: relative;
+    left: 20px;
+    color: white;
+    font-family: calibri;
+}
+
+#photo-profile h2 {
+    font-size: 20px; 
+    vertical-align: middle;
+    position: absolute;
+    top: 70%;
+    left: 50px;
+    
+}
+#photo-profile p {
+    color: white;
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    left: 80px;
+}
+
+#photo-profile img {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+}
+
+#photo-profile .whats {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 170px;
+}
+
+.my-info {
+    border-radius: 10px;
+    background: rgb(37, 48, 56, 0.46);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    border: 2px solid rgb(130, 130, 130);
+}
+
+.my-info ul{
+    position: absolute;
+    right: 45x;
+    font-size:14px;
+    bottom: 22px;
+}
+
+.my-info ul img{
+    position: relative;
+    top: 6px;
+    right: 20px;
+    filter: invert();
+    
+}
+
+.my-info ul p {
+    font-family: 'Calibri';
+    font-size: 14px;
+    text-align: left;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.projects {
+    border-radius: 10px;
+    background-color: rgb(37, 48, 56, 0.46);
+    position: absolute;
+    top: 30px;
+    width: 70%;
+    height: 50px;
+    left: 390px;
+    border: 2px solid rgb(130, 130, 130);
+    
+}
+
+.projects a{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+}
+
+.projects h2 {
+    position: absolute;
+    color: white;
+    bottom: -8px;
+    left: 20px;
+}
+
+.tecnologies {
+    border-radius: 10px;
+    background-color: rgb(37, 48, 56, 0.46);
+    position: relative;
+    height: 100px;
+    width: 300px;
+    left: 30px;
+    top: 60px;
+    border: 2px solid rgb(130, 130, 130);
+    
+}
+
+.tecnologies p, h2{
+    color: white;
+    font-family: 'Calibri';
+    text-align: center;
+    
+}
+
+.tecnologies p {
+    background-color: rgb(1, 203, 89);
+    padding: 5px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.tecnologies h2 {
+    position: absolute;
+    left: 30%;
+}
+
+.tecnologies #html {
+    position: absolute;
+    left: 28%;
+    top: 40%;
+}
+
+.tecnologies #css {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    background-color: rgb(226, 43, 147);
+}
